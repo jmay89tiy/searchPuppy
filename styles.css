@@ -1,0 +1,89 @@
+body {
+
+}
+
+#wrapper {
+background-image: url("corgispace.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+font-family: 'Oxygen', sans-serif;
+
+}
+
+
+
+#searchBar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color:white;
+  background-image: url("doge.jpg");
+  border: 1px solid black;
+  height: 200px;
+  width: 100%;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#searchBar header {
+  color: white;
+  text-align: center;
+  padding-bottom: 100px;
+}
+#searchBar input {
+
+  height: 50px;
+  width: 300px;
+  font-size: 45px;
+  color: purple;
+
+}
+
+#searchBar button {
+  height: 58px;
+  width: 150px;
+  font-size:40px;
+  background-color: orange;
+  color: white;
+}
+
+
+
+.recipeCard {
+  font-family: 'Oxygen', sans-serif;
+  color:orange;
+  display: flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+    margin-left: 300px;
+    font-size: 25px;
+    background-image: url("notepad.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    width: 50%;
+    margin: 15px 0;
+    border-radius:10px;
+    border: 1px solid gray;
+
+}
+
+.recipeCard .pics {
+  width: 175px;
+  height: 150px;
+  margin-left: 125px;
+  margin-top: 190px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+
+
+.recipeCard .titles {
+  margin-left: 125px;
+}
+
+.recipeCard .mats {
+  margin-left:125px;
+  color: orange;
+}
